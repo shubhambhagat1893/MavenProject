@@ -24,6 +24,11 @@
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://18.116.32.72:8081/repository/maven-snapshots/</url>
+   </snapshotRepository> 
+    <id>internal.repo</id>
+    <name>Internal Repo</name>
+    <url>file://var/lib/jenkins/myartifacts</url>
+    </repository>
 </distributionManagement>
 
   <dependencies>
